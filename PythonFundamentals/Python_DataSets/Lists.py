@@ -1,6 +1,4 @@
-
 def list_of_fruits():
-
     #  Creation of List
     fruits = ['Orange', 'Apple', 'Grapes', 'Watermelon', 'Papaya']
     print(fruits)
@@ -20,7 +18,7 @@ def list_of_fruits():
     fruits.append('Banana')
     print(fruits)
     print("")
-    fruits.insert(3, 'DragonFruit') #Inserts at Index position
+    fruits.insert(3, 'DragonFruit')  # Inserts at Index position
     print(fruits)
 
     print("")
@@ -31,7 +29,7 @@ def list_of_fruits():
     fruits.pop()  # Removes last element
     print(fruits)
     print("")
-    del fruits[3]      # Deleting the element using the Index
+    del fruits[3]  # Deleting the element using the Index
     print(fruits)
 
     print("")
@@ -44,6 +42,5 @@ def list_of_fruits():
     new_list = [x for x in fruits]
     print(new_list)
 
+
 list_of_fruits()
-
-
